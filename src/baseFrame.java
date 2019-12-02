@@ -2476,7 +2476,7 @@ fid4.setText("");
         // TODO add your handling code here:
     }//GEN-LAST:event_ClearAActionPerformed
 
-public String Excel_File_Location = "C:\\Users\\RichardDel\\Desktop\\Table_Excel\\";
+public String Excel_File_Location = ".\\";
 public void exportTable(JTable table, File file) throws IOException {
             
         TableModel model = table.getModel();
